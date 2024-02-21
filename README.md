@@ -1,4 +1,4 @@
-Welcome to my REST API project, an advanced server-side web application featuring a robust website management system. This system empowers the Admin to effortlessly publish, edit, and delete content. Developed using TypeScript, the project seamlessly integrates with the MongoDB database. and selection of key libraries such as Express, Mongoose, Chalk, CORS, Morgan, Config, Jsonwebtoken, Joi, and Bcrypt.
+Welcome to my REST API 'RememberMe' project, an advanced server-side web application featuring a robust website management system. This system empowers the Admin to effortlessly publish, edit, and delete content. Developed using TypeScript, the project seamlessly integrates with the MongoDB database. and selection of key libraries such as Express, Mongoose, Chalk, CORS, Morgan, Config, Jsonwebtoken, Joi, and Bcrypt.
 
 For detailed instructions on interacting with the API endpoints, please refer to the Postman documentation provided here:
 
