@@ -1,0 +1,47 @@
+{"date":"2024-02-09T07:40:57.169Z","error":{},"level":"error","message":"Error in isAdmin middleware","status":500}
+{"date":"2024-02-09T07:40:57.171Z","error":{},"level":"error","message":"Cannot destructure property '_id' of 'req.user' as it is undefined."}
+{"date":"2024-02-09T07:45:54.509Z","error":{},"level":"error","message":"Error in isAdmin middleware","status":500}
+{"date":"2024-02-09T07:45:54.512Z","error":{},"level":"error","message":"Cannot destructure property '_id' of 'req.user' as it is undefined."}
+{"date":"2024-02-09T07:45:57.411Z","error":{},"level":"error","message":"Error in isAdmin middleware","status":500}
+{"date":"2024-02-09T07:45:57.412Z","error":{},"level":"error","message":"Cannot destructure property '_id' of 'req.user' as it is undefined."}
+{"date":"2024-02-09T07:52:40.226Z","error":{"status":401},"level":"error","message":"Error in isAdmin middleware","status":500}
+{"date":"2024-02-09T07:52:40.229Z","error":{"status":401},"level":"error","message":"User ID is missing in JWT payload","status":401}
+{"date":"2024-02-09T07:57:32.958Z","level":"error","message":"User must have an id","status":500}
+{"date":"2024-02-09T07:57:32.971Z","error":{"status":500},"level":"error","message":"User must have an id","status":500}
+{"date":"2024-02-09T08:06:08.998Z","level":"error","message":"User must have an id","status":500}
+{"date":"2024-02-09T08:06:09.010Z","error":{"status":500},"level":"error","message":"User must have an id","status":500}
+{"date":"2024-02-09T08:47:34.837Z","level":"error","message":"User must have an id","status":500}
+{"date":"2024-02-09T08:47:34.840Z","error":{"status":500},"level":"error","message":"User must have an id","status":500}
+{"date":"2024-02-09T08:48:28.598Z","level":"error","message":"User must have an id","status":500}
+{"date":"2024-02-09T08:48:28.603Z","error":{"status":500},"level":"error","message":"User must have an id","status":500}
+{"date":"2024-02-09T08:53:05.819Z","level":"error","message":"User must have an id","status":500}
+{"date":"2024-02-09T08:53:05.821Z","error":{"status":500},"level":"error","message":"User must have an id","status":500}
+{"date":"2024-02-09T08:54:06.043Z","level":"error","message":"User must have an id","status":500}
+{"date":"2024-02-09T08:54:06.043Z","error":{"status":500},"level":"error","message":"User must have an id","status":500}
+{"date":"2024-02-09T10:21:40.061Z","error":{"status":400},"level":"error","message":"Token is missing in Authorization header","status":400}
+{"date":"2024-02-09T10:21:55.389Z","level":"error","message":"Email is missing in JWT payload","status":500}
+{"date":"2024-02-09T10:21:55.390Z","error":{"status":500},"level":"error","message":"Email is missing in JWT payload","status":500}
+{"date":"2024-02-09T10:22:50.080Z","level":"error","message":"Email is missing in JWT payload","status":500}
+{"date":"2024-02-09T10:22:50.081Z","error":{"status":500},"level":"error","message":"Email is missing in JWT payload","status":500}
+{"date":"2024-02-09T10:22:51.701Z","level":"error","message":"Email is missing in JWT payload","status":500}
+{"date":"2024-02-09T10:22:51.706Z","error":{"status":500},"level":"error","message":"Email is missing in JWT payload","status":500}
+{"date":"2024-02-09T11:15:30.500Z","error":{"_message":"Card validation failed","errors":{"userId":{"kind":"required","message":"Path `userId` is required.","name":"ValidatorError","path":"userId","properties":{"message":"Path `userId` is required.","path":"userId","type":"required"}}},"message":"Card validation failed: userId: Path `userId` is required.","name":"ValidationError"},"level":"error","message":"Card validation failed: userId: Path `userId` is required."}
+{"date":"2024-02-09T11:18:13.203Z","error":{"message":"\"userId\" is not allowed","path":["userId"]},"level":"error","message":"Validation failed","status":400}
+{"date":"2024-02-09T11:19:07.997Z","error":{"message":"\"email\" is not allowed","path":["email"]},"level":"error","message":"Validation failed","status":400}
+{"date":"2024-02-09T12:00:41.632Z","error":{"code":11000,"index":0,"keyPattern":{"bizNumber":1},"keyValue":{"bizNumber":null}},"level":"error","message":"E11000 duplicate key error collection: remember_me.cards index: bizNumber_1 dup key: { bizNumber: null }"}
+{"date":"2024-02-09T12:01:17.889Z","error":{"code":11000,"index":0,"keyPattern":{"bizNumber":1},"keyValue":{"bizNumber":null}},"level":"error","message":"E11000 duplicate key error collection: remember_me.cards index: bizNumber_1 dup key: { bizNumber: null }"}
+{"date":"2024-02-09T12:10:46.247Z","error":{"code":11000,"index":0,"keyPattern":{"bizNumber":1},"keyValue":{"bizNumber":null}},"level":"error","message":"E11000 duplicate key error collection: remember_me.cards index: bizNumber_1 dup key: { bizNumber: null }"}
+{"date":"2024-02-09T12:28:56.527Z","error":{"status":400},"level":"error","message":"Token is missing in Authorization header","status":400}
+{"date":"2024-02-09T12:33:51.908Z","error":{"status":404},"level":"error","message":"Card not found","status":404}
+{"date":"2024-02-09T12:34:37.283Z","error":{"status":404},"level":"error","message":"Card not found","status":404}
+{"date":"2024-02-09T12:36:41.369Z","error":{"status":401},"level":"error","message":"Must be admin","status":401}
+{"date":"2024-02-09T12:36:52.203Z","error":{"status":401},"level":"error","message":"Must be admin","status":401}
+{"date":"2024-02-09T12:37:03.697Z","error":{"status":401},"level":"error","message":"Must be admin","status":401}
+{"date":"2024-02-09T12:37:18.268Z","level":"error","message":"Internal Server Error","status":500}
+{"date":"2024-02-09T12:37:18.269Z","error":{"status":403},"level":"error","message":"Unauthorized: You are not the creator of this card","status":403}
+{"date":"2024-02-09T12:37:49.617Z","level":"error","message":"Internal Server Error","status":500}
+{"date":"2024-02-09T12:37:49.618Z","error":{"status":403},"level":"error","message":"Unauthorized: You are not the creator of this card","status":403}
+{"date":"2024-02-09T12:39:02.767Z","error":{"status":404},"level":"error","message":"Card not found","status":404}
+{"date":"2024-02-09T12:39:17.495Z","error":{"status":401},"level":"error","message":"Must be admin","status":401}
+{"date":"2024-02-09T12:39:34.646Z","error":{"status":404},"level":"error","message":"Card not found","status":404}
+{"date":"2024-02-09T12:48:32.795Z","error":{"message":"Only admin/The id must belong to the user","requestedUserId":"65c4ee7b379a180d83260e4c","userId":"65c4ee7b379a180d83260e4c"},"level":"error","message":"Permission Denied","status":401}

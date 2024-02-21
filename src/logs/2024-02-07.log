@@ -1,0 +1,2 @@
+{"date":"2024-02-07T14:23:45.144Z","error":{"message":"jwt malformed","name":"JsonWebTokenError"},"level":"error","message":"Error verifying JWT","status":401}
+{"date":"2024-02-07T14:23:45.219Z","error":{"status":401},"level":"error","message":"Unauthorized","status":401}

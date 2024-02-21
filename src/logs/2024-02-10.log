@@ -1,0 +1,9 @@
+{"date":"2024-02-10T12:15:31.776Z","error":{"message":"\"phone\" with value \"0556602211\" fails to match the required pattern: /^((\\+972|0)([23489]|5[02468]|77)-?[1-9]\\d{6})$/","path":["phone"]},"level":"error","message":"Validation failed","status":400}
+{"date":"2024-02-10T12:15:50.848Z","error":{"message":"\"phone\" with value \"0556602211\" fails to match the required pattern: /^((\\+972|0)([23489]|5[02468]|77)-?[1-9]\\d{6})$/","path":["phone"]},"level":"error","message":"Validation failed","status":400}
+{"date":"2024-02-10T12:22:12.150Z","error":{"message":"\"phone\" with value \"0556602211\" fails to match the required pattern: /^((\\+972|0)([23489]|5[02468]|77)-?[1-9]\\d{6})$/","path":["phone"]},"level":"error","message":"Validation failed","status":400}
+{"date":"2024-02-10T13:47:26.117Z","error":{"status":401},"level":"error","message":"Login failed","status":500}
+{"date":"2024-02-10T13:47:26.218Z","error":{"status":401},"level":"error","message":"Invalid email or password","status":401}
+{"date":"2024-02-11T07:19:50.931Z","error":{"message":"jwt malformed","name":"JsonWebTokenError"},"level":"error","message":"jwt malformed"}
+{"date":"2024-02-11T07:19:53.493Z","error":{"message":"jwt malformed","name":"JsonWebTokenError"},"level":"error","message":"jwt malformed"}
+{"date":"2024-02-11T07:42:22.659Z","error":{"message":"jwt malformed","name":"JsonWebTokenError"},"level":"error","message":"jwt malformed"}
+{"date":"2024-02-11T07:42:26.752Z","error":{"message":"jwt malformed","name":"JsonWebTokenError"},"level":"error","message":"jwt malformed"}

@@ -1,0 +1,111 @@
+### register user:
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+
+ {
+    "name": {
+      "first": "ori",
+      "middle": "",
+      "last": "nahshoni"
+    },
+    "address": {
+      "country": "Israel",
+      "city": "Anytown",
+      "street": " Main St",
+      "houseNumber": 20
+    },
+    "phone": "050-8123091",
+    "email": "ori@gmail.com",
+    "password": "123456aA!"
+  }
+
+
+### Login:
+POST http://localhost:8080/api/v1/users/login
+Content-Type: application/json
+
+{
+  "email": "yam@gmail.com",
+  "password": "123456aA!"
+}
+
+
+### GET All users:
+GET http://localhost:8080/api/v1/users
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InlhbUBnbWFpbC5jb20iLCJpYXQiOjE3MDc0NzQwNjV9.JwQFRtocta9vBda_F1UpRog-jqNDJy4DKyxDgxetwj4
+
+
+### Get user by id:
+GET http://localhost:8080/api/v1/users/65d5d4631ba19eb2e18baa70
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InlhbUBnbWFpbC5jb20iLCJpYXQiOjE3MDg1MTI1Mzd9.05TQhf1fe2NPJwYG6-JLq_0r_Ptxx6YL6ISiugnYD78
+
+
+
+### DELETE user:
+DELETE http://localhost:8080/api/v1/users/65c4ee4e379a180d83260e3a
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InlhZWxAZ21haWwuY29tIiwiaWF0IjoxNzA3NDA1MjgzfQ.Pv9XHHL6o22FCwvnstsAyTYmiHCRJteK0_pf0TfriUA
+
+
+### Get all cards:
+GET http://localhost:8080/api/v1/cards
+
+
+### GET Card by id:
+GET http://localhost:8080/api/v1/cards/65c8e5198b60ad091c7bdfcf
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InlhbUBnbWFpbC5jb20iLCJpYXQiOjE3MDc0NzczMDl9.3gFLiPb-Hj0XDYXmrR0UUw5_yL99gsAq2kKeEuv1q6g
+Content-Type: application/json
+
+
+### Create new card:
+POST http://localhost:8080/api/v1/cards
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InlhbUBnbWFpbC5jb20iLCJpYXQiOjE3MDgwNzk2NDl9.V5OEGtS6MIEhhDNWpt5hZAvCixBZVw9swMTATa-DEDo
+Content-Type: application/json
+
+{
+    "name": {
+      "first": "sh",
+      "middle": "joffo",
+      "last": "ko"
+    },
+    "age": 5,
+    "city": "jlk",
+    "description": "knkjj",
+    "image": {
+      "url": "",
+       "alt": ""
+    },
+    "casualtiesOfWar": "Emergency squad",
+      "userId": "65c4ede6379a180d83260e28"
+}
+
+
+### Edit card:
+PUT http://localhost:8080/api/v1/cards/65c8e5198b60ad091c7bdfcf
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InlhbUBnbWFpbC5jb20iLCJpYXQiOjE3MDc0NzczMDl9.3gFLiPb-Hj0XDYXmrR0UUw5_yL99gsAq2kKeEuv1q6g
+Content-Type: application/json
+
+{
+    "name": {
+      "first": "Kerol",
+      "middle": "Siman",
+      "last": "Tov"
+    },
+    "age": 70,
+    "city": "Nir Oz",
+    "description": "",
+    "image": {
+      "alt": "profile",
+      "url": "https://eshkol.gal-ed.co.il/view_files/Nofel_Pic/043564/NP_043564_10.jpg"
+    },
+    "casualtiesOfWar": "",
+    "userId": "65c4ede6379a180d83260e28"
+}
+
+
+### Remember card:
+PATCH  http://localhost:8080/api/v1/cards/65c8e5198b60ad091c7bdfcf
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InlhbUBnbWFpbC5jb20iLCJpYXQiOjE3MDc3MzYzMDB9.7lUOvnAcOFlUJaT-x3KgzSCp0FMB1sLWBnph5WNfkZo
+
+### DELETE card:
+DELETE http://localhost:8080/api/v1/cards/65c61a6095531f9945987a07
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InlhbUBnbWFpbC5jb20iLCJpYXQiOjE3MDc0NzczMDl9.3gFLiPb-Hj0XDYXmrR0UUw5_yL99gsAq2kKeEuv1q6g

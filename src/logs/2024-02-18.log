@@ -1,0 +1,5 @@
+{"date":"2024-02-19T07:48:30.825Z","error":{"message":"\"image.url\" length must be less than or equal to 200 characters long","path":["image","url"]},"level":"error","message":"Validation failed","status":400}
+{"date":"2024-02-19T07:49:07.197Z","error":{"message":"\"image.url\" length must be less than or equal to 200 characters long","path":["image","url"]},"level":"error","message":"Validation failed","status":400}
+{"date":"2024-02-19T16:04:45.759Z","error":{"status":401},"level":"error","message":"Error validating user","status":500}
+{"date":"2024-02-19T16:04:45.816Z","error":{"status":500},"level":"error","message":"Login failed","status":500}
+{"date":"2024-02-19T16:04:45.859Z","error":{"status":500},"level":"error","message":"Error validating user","status":500}

@@ -1,0 +1,15 @@
+{"date":"2024-02-21T10:35:03.588Z","error":{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"galia@gmail.com"}},"level":"error","message":"E11000 duplicate key error collection: remember_me.users index: email_1 dup key: { email: \"galia@gmail.com\" }"}
+{"date":"2024-02-21T10:38:35.850Z","error":{"email":"ori@gmail.com"},"level":"error","message":"User does not exist","status":401}
+{"date":"2024-02-21T10:38:35.852Z","error":{"status":401},"level":"error","message":"User does not exist","status":401}
+{"date":"2024-02-21T10:40:11.729Z","error":{"email":"ori@gmail.com"},"level":"error","message":"User does not exist","status":401}
+{"date":"2024-02-21T10:40:11.730Z","error":{"status":401},"level":"error","message":"User does not exist","status":401}
+{"date":"2024-02-21T10:41:50.154Z","error":{"email":"ori@gmail.com"},"level":"error","message":"User does not exist","status":401}
+{"date":"2024-02-21T10:41:50.155Z","error":{"status":401},"level":"error","message":"User does not exist","status":401}
+{"date":"2024-02-21T10:42:29.438Z","error":{"email":"ori@gmail.com"},"level":"error","message":"User does not exist","status":401}
+{"date":"2024-02-21T10:42:29.439Z","error":{"status":401},"level":"error","message":"User does not exist","status":401}
+{"date":"2024-02-21T10:43:39.099Z","error":{"email":"gal@gmail.com"},"level":"error","message":"User does not exist","status":401}
+{"date":"2024-02-21T10:43:39.101Z","error":{"status":401},"level":"error","message":"User does not exist","status":401}
+{"date":"2024-02-21T10:44:11.262Z","error":{"email":"gal@gmail.com"},"level":"error","message":"User does not exist","status":401}
+{"date":"2024-02-21T10:44:11.263Z","error":{"status":401},"level":"error","message":"User does not exist","status":401}
+{"date":"2024-02-21T10:47:59.422Z","error":{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"ori@gmail.com"}},"level":"error","message":"E11000 duplicate key error collection: remember_me.users index: email_1 dup key: { email: \"ori@gmail.com\" }"}
+{"date":"2024-02-21T10:48:47.255Z","error":{"status":401},"level":"error","message":"Must be admin","status":401}
